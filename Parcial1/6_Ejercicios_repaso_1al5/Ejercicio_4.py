@@ -3,22 +3,17 @@
 # basicas de una calculadora (+,-,*,/)
 # y mostrar por pantalla el resultado
 
-num1=input("ingrese el primer número: ")
+num1 = int(input("Ingresa el primer número: "))
+num2 = int(input("Ingresa el segundo número: "))
 
-num2=input("Ingrese el segundo número: ")
+suma = num1 + num2
+print("La suma es: {}".format(suma))
 
-suma= num1 + num2
-print=("SUMA: {}".format(suma))
+resta = num1 - num2
+print("La resta es: {}".format(resta))
 
-multiplicación= num1 * num2
-print=("MULTIPLICACIÓN: {}".format(multiplicación))
+multiplicacion = num1 * num2
+print("La multiplicacion es: {}".format(multiplicacion))
 
-resta= num1 - num2
-print=("RESTA: {}".format(resta))
-
-division= num1 / num2
-print=("DIVISIÓN: {}".format(division))
-
-
-
-
+division = num1 / num2
+print("La resta es: {}".format(division))

@@ -2,9 +2,9 @@
 # Mostrar su valor en pantalla
 #Poner un comentario para poner el tipo de dato
 
-pais=input("Ingrese el país: ")
+pais="México"
 
-continente=input("Ingrese el continente: ")
+continente="Americano"
 
 print("Su país es: {} y su esta ubicado en el continente: {}".format(pais,continente))
 
