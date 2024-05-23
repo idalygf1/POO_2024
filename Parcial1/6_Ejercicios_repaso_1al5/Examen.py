@@ -1,29 +1,36 @@
 #Examen
+
+presion1=int(input("Ingrese la presion 1: "))
+presion2=int(input("Ingrese la presion 2: "))
+presion3=int(input("Ingrese la presion 3: "))
+
+
+
+Diastolica= presion1 + presion2 + presion3 / 3
+
+sistolica= presion1 + presion2 + presion3 / 3
+
+presion_final= presion1 + presion2 + presion3 / 3
+
+if Diastolica <=120:
+    print("Presenta una presión Diastolica {} es normal".format(Diastolica))
+else:
+    print("Su presión Diastólica es anormal")
+
+    if sistolica <=80:
+        print("Presenta una presión Sistolica {} es normal".format(sistolica))
+    else:
+        print("Su presión de Sistolica es anormal".format(sistolica))
+
 pacientes=0
 respuesta ="SI"
 
 print("Desea capturar otro paciente?")
 if respuesta == "SI": 
-    while pacientes <=0:
-
-   
-        presion1=int(input("Ingrese la presion 1: "))
-        presion2=int(input("Ingrese la presion 2: "))
-        presion3=int(input("Ingrese la presion 3: "))
-
-    medicion_final= presion1 + presion2 + presion3 / 3
-
-if medicion_final <=120:
-    print("Presenta una presión de {} normal".format(medicion_final))
+    
+    pacientes=+1
 else:
-    print("Su presión es {} es anormal".format(medicion_final))
-
-    if medicion_final <=80:
-        print("Presenta una presión de {} normal".format(medicion_final))
-    else:
-        print("Su presión de {} es anormal".format(medicion_final))
-
-print("El número de pacientes es de: {}".format(pacientes+1))
+    print("El número de pacientes es de: {}".format(pacientes+1))
 
 
 
