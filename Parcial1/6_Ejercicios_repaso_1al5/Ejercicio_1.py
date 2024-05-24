@@ -11,4 +11,4 @@ print("Su país es: {} y su esta ubicado en el continente: {}".format(pais,conti
 print(type(pais))
 print(type(continente))
 
-x=3
+
