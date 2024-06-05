@@ -21,8 +21,7 @@ while i<len(numeros):
     print(numeros[i])
     i+=1
 
-#Ejemplo 2 Crear una lista de palabras, posteriormente ingresar una palabra para buscar la coincidencia en la lista, e indicar si aparece 
-# la palabra y en que posicion en caso contrarrio indicar una sola vez si no lo encontro 
+#Ejemplo 2 Crear una lista de palabras, posteriormente ingresar una palabra para buscar la coincidencia en la lista, e indicar si aparece la palabra y en que posicion en caso contrario indicar una sola vez si no lo encontro 
 
 palabras=["hola","2024","13.23","True"]
 
