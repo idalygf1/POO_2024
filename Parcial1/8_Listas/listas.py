@@ -86,24 +86,31 @@
 # metodo de actualizar
 # mandar archivo e importamos funciones
 # 
+import os
+from funciones_cinepolis import agregar_pelicula, remover_pelicula, consultar_peliculas, esperar_confirmacion, mostrar_menu
 
-def insertarPeliculas():
-    pelicula=input("Ingrese la pelicula")
-    peliculas.append(pelicula)
-    espereTecla()
 
-def eliminarPeliculas():
-    pelicula=input("Ingrese la pelicula")
-    peliculas.remove(pelicula)
-    espereTecla()
 
-    peliculas=[]
 
-print("\n\t...::: CLAYUPOLIS :::...\n 1.- Añadir \n 2.- Eliminar \n 3.- Buscar 3.-Consultar \n 4.- Salir")
-opcion=input("\t Elige una opción: ").upper()#lo convierte a mayuscula
-
-if opcion=="1" or opcion=="AGREGAR":
-    insertarPeliculas()
-
-elif opcion=="2" or opcion=="ELIMINAR":
-    eliminarPeliculas()
+while True:
+        os.system('cls' if os.name == 'nt' else 'clear')  # Limpiar pantalla
+        mostrar_menu()
+        opcion = input("Seleccione una opción: ")
+        
+        if opcion == "1":
+            nombre = input("Ingrese el nombre de la película: ")
+            agregar_pelicula(nombre)
+            esperar_confirmacion()
+        elif opcion == "2":
+            nombre = input("Ingrese el nombre de la película a remover: ")
+            remover_pelicula(nombre)
+            esperar_confirmacion()
+        elif opcion == "3":
+            consultar_peliculas()
+            esperar_confirmacion()
+        elif opcion == "4":
+            print("Saliendo del programa.")
+            break
+        else:
+            print("Opción no válida. Por favor, intente nuevamente.")
+            esperar_confirmacion()
