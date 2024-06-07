@@ -86,31 +86,33 @@
 # metodo de actualizar
 # mandar archivo e importamos funciones
 # 
-import os
-from funciones_cinepolis import agregar_pelicula, remover_pelicula, consultar_peliculas, esperar_confirmacion, mostrar_menu
+peliculas = []
 
+def esperar_confirmacion():
+    input("Presione Enter para continuar...")
 
+def mostrar_menu():
+    print("\nMenú de opciones:")
+    print("1. Agregar película")
+    print("2. Remover película")
+    print("3. Consultar películas")
+    print("4. Salir")
 
+def agregar_pelicula(nombre):
+    peliculas.append(nombre)
+    print(f'Película "{nombre}" agregada.')
 
-while True:
-        os.system('cls' if os.name == 'nt' else 'clear')  # Limpiar pantalla
-        mostrar_menu()
-        opcion = input("Seleccione una opción: ")
-        
-        if opcion == "1":
-            nombre = input("Ingrese el nombre de la película: ")
-            agregar_pelicula(nombre)
-            esperar_confirmacion()
-        elif opcion == "2":
-            nombre = input("Ingrese el nombre de la película a remover: ")
-            remover_pelicula(nombre)
-            esperar_confirmacion()
-        elif opcion == "3":
-            consultar_peliculas()
-            esperar_confirmacion()
-        elif opcion == "4":
-            print("Saliendo del programa.")
-            break
-        else:
-            print("Opción no válida. Por favor, intente nuevamente.")
-            esperar_confirmacion()
+def remover_pelicula(nombre):
+    if nombre in peliculas:
+        peliculas.remove(nombre)
+        print(f'Película "{nombre}" removida.')
+    else:
+        print(f'La película "{nombre}" no se encuentra en la lista.')
+
+def consultar_peliculas():
+    if peliculas:
+        print("Lista de películas:")
+        for pelicula in peliculas:
+            print(f'- {pelicula}')
+    else:
+        print("No hay películas en la lista.")
