@@ -12,7 +12,7 @@ Tienes 4 variantes del if
 4.- if y elif 
 """
 
-#ejemplo 1 if siemple 
+#ejemplo 1 if siemple.
 color =input("Ingresa un color: ")
 
 if color=="rojo":

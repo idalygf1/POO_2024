@@ -1,5 +1,5 @@
 #Escribir un programa que tome una cadena de texto como entrada y cuente el número de vocales (a, e, i, o, u) 
-#que contiene, tanto en mayúsculas como en minúsculas.
+#que contiene, tanto en mayúsculas como en minúsculas..
 
 def contar_vocales(cadena):
     vocales = "aeiouAEIOU"

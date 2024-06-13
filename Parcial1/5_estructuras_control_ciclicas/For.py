@@ -4,7 +4,7 @@
 #for variable in elemento iterable(lista, rango, etc):
 #   bloque de instrucciones 
 
-#Ejemplo 1 Crear un programa que imprima en pantalla 5 veces el @
+#Ejemplo 1 Crear un programa que imprima en pantalla 5 veces el @.
 
 
 

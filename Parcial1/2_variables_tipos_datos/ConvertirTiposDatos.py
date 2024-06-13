@@ -4,7 +4,7 @@ Nota: A la hora de concatenar cadenas no es posible incluir en algunas ocaciones
 contenido de variables que no sean del tipo de dato str
 """
 
-#Comentario de una linea 
+#Comentario de una linea.
 
 #Concatenar un str con str
 

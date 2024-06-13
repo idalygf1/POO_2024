@@ -1,5 +1,5 @@
 """
-Operadores en Python
+Operadores en Python.
 
 Aritmeticos 
 Operator	Name	Example	Try it

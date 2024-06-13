@@ -2,7 +2,7 @@
 Solicitar al usuario que ingrese el total de la cuenta.
 Solicitar al usuario que ingrese el porcentaje de propina deseado.
 Calcular el monto de la propina multiplicando el total de la cuenta por el porcentaje de propina.
-Calcular el total a pagar sumando el total de la cuenta y la propina.
+Calcular el total a pagar sumando el total de la cuenta y la propina..
 Mostrar el total de la cuenta, el monto de la propina y el total a pagar.
 """
 

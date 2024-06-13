@@ -1,6 +1,6 @@
 #Las variables son debilmente tipadas 
 #es decir no es necesario indicar el tipo de 
-#dato al momento de utilizarlas 
+#dato al momento de utilizarlas.
 
 
 #variables

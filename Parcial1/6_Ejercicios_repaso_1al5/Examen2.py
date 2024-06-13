@@ -1,4 +1,4 @@
-#Examen 2
+#Examen 2.
 basico= 0.987
 Intermedido=1.203
 IVA= .16

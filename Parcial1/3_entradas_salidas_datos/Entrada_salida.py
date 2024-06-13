@@ -1,4 +1,4 @@
-#Solicitar los datos de un alumno
+#Solicitar los datos de un alumno.
 
 nombre=input("Nombre: ")
 edad=input("Edad: ")

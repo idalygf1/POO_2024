@@ -1,4 +1,4 @@
-#concatenar cadenas de caracteres con contenido de variables 
+#concatenar cadenas de caracteres con contenido de variables.
 
 nombre="Idaly Guadalupe Garcia Flores "
 especialidad="Area de Desarrollo de SW Multiplataforma"

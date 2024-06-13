@@ -1,4 +1,4 @@
-#Examen
+#Examen.
 
 presion1=int(input("Ingrese la presion 1: "))
 presion2=int(input("Ingrese la presion 2: "))

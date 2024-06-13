@@ -6,7 +6,7 @@
 
 # Estructurados
 # str "cadena"
-# list   "Lista"
+# list   "Lista".
 # tuple  
 # dict   "como un objeto"
 
