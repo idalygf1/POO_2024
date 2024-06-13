@@ -1,4 +1,4 @@
-#Ejercicio1
+#Ejercicio1.
 def calcular_area_perimetro(base,altura):
 
     area=0

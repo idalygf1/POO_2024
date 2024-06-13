@@ -12,7 +12,7 @@ try: #Intenta ejecutar un bloque de codigo
     n2 = int(input("Ingresa un numero: "))
     res = n1 + n2 
     print(res)
-except: #Si da algun error al ejecutar el bloque de codigo imprime la siguiente linea
+except: #Si da algun error al ejecutar el bloque de codigo imprime la siguiente linea.
     print("Error: Ingresa valores validos")
 
 
