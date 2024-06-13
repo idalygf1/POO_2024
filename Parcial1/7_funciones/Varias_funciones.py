@@ -1,6 +1,6 @@
 def solicitarNumero():
     global n1,n2
-    n1=int(input("Número #1"))
+    n1=int(input("Número #1."))
     n2=int(input("Número #2"))
 
 def calculadora(n1,n2,opcion):

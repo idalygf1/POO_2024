@@ -5,7 +5,7 @@ from funciones_cinepolis import agregar_pelicula, remover_pelicula, consultar_pe
 
 
 while True:
-        os.system('cls' if os.name == 'nt' else 'clear')  # Limpiar pantalla
+        os.system('cls' if os.name == 'nt' else 'clear')  # Limpiar pantalla.
         mostrar_menu()
         opcion = input("Seleccione una opción: ")
         

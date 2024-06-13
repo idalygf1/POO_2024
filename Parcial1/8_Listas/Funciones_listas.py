@@ -11,7 +11,7 @@ print(numero)
 numero.sort()
 print(numero)
 
-#Agregar elementos a la lista
+#Agregar elementos a la lista.
 print(numero)
 numero.append(100)#agregar
 print(numero)

@@ -13,7 +13,7 @@
 # except:
 #     print("Es necesario introducir un nombre de usuario...")
 
-#Ejemplo cuando se solicita un numero y se introduce una letra 
+#Ejemplo cuando se solicita un numero y se introduce una letra.
 
 # try:
 #     numero=int(input("Dame un numero: "))

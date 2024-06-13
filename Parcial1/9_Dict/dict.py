@@ -22,7 +22,7 @@ print(alumnos)
 
 print(alumnos["nombre"])
 
-#Agregar elementos
+#Agregar elementos.
 
 alumnos["telefono"]=6181234567
 print(alumnos)

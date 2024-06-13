@@ -4,7 +4,7 @@ agrupadas bajo un nombre en particular como un
 programa más pequeño que cumple una función
 específica . La función se puede reutilizar con 
 el simple hecho de invocarla es decir mandarla 
-llamar 
+llamar.
 
   Sintaxis:
 

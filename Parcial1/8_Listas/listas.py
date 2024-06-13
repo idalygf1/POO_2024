@@ -9,7 +9,7 @@
 #Ejemplo 1 Crear una lista con valores numéricos enteros e impriir la lista 
 
 # numeros=[23,34]
-# print(numeros)
+# print(numeros).
 
 #Recorrer las listas con un FOR salto de linea
 # for i in numeros:
