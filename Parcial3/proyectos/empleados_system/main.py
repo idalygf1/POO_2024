@@ -6,8 +6,8 @@ def crear_conexion():
         conexion = mysql.connector.connect(
             host='localhost',
             database='mi_empresa',
-            user='root',
-            password=''
+            user='tu_usuario',
+            password='tu_contraseña'
         )
         if conexion.is_connected():
             print("Conexión exitosa a la base de datos")
@@ -87,5 +87,5 @@ def menu():
             else:
                 print("Opción no válida. Inténtalo de nuevo.")
 
-if __name__ == "__main__":
+if __name__ == "_main_":
     menu()
