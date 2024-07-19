@@ -8,5 +8,8 @@ try:
         password='',
         database='bd_notas'  
     )
-except Exception as e:
+    #Se crea un cursor un objeto de tipo cursor con un parametro 
+    # que permite reutilizar el mismo objeto
+    cursor=conexion.cursor(buffered=True)
+except:
     print(f"Ocurrió un error por favor vuelva inentar más tarde")

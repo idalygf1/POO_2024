@@ -1,18 +1,53 @@
-class Notas:
-    def _init_(self, usuario_id, titulo, descripcion, fecha):
+
+from conexionBD import *
+class Nota:
+    def __init__(self, usuario_id, titulo, descripcion):
         self.usuario_id = usuario_id
         self.titulo = titulo
         self.descripcion = descripcion
-        self.fecha = fecha
 
     def crear(self):
-        pass
+        try:
+            cursor.execute(
+                "insert into notas values(null,%s,%s,%s,NOW())",
+                (self.usuario_id,self.titulo,self.descripcion)
+            )
+            conexion.commit()
+            return True
+        except:
+            return False
 
+    @staticmethod
     def mostrar(usuario_id):
-        pass
+        try:
+            cursor.execute(
+                "select * from notas where usuario_id=%s",
+                (usuario_id,)
+            )
+            return cursor.fetchall()
+        except:
+            return []
 
-    def actualizar(self, nota_id):
-        pass
+    @staticmethod
+    def actualizar(id, titulo, descripcion):
+        try:
+            cursor.execute(
+                "update notas set titulo=%s,descripcion=%s where id=%s",
+                (titulo,descripcion,id)
+            )
+            conexion.commit()
+            return True
+        except:
+            return False
 
-    def eliminar(nota_id, usuario_id):
-        pass
+    @staticmethod
+    def eliminar(id):
+        try:
+            cursor.execute(
+                "delete from notas where id=%s",
+                (id,)
+            )
+            conexion.commit()
+            return True
+        except:
+            return False

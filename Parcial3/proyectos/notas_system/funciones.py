@@ -1,7 +1,7 @@
 import os
 
 def borrarPantalla():
-    os.system('cls')
+    os.system('clear')
 
 def esperarTecla():
-    input("Presiona cualquier tecla para continuar...")
+    input("\n \t \t Presiona cualquier tecla para continuar...")
